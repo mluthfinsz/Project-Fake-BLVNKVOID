@@ -1,0 +1,199 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Mencegah scroll ke kanan */
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: #f4f4f4;
+  max-width: 100vw; /* Tidak melebihi layar */
+  overflow: hidden;
+}
+
+.logo {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu li a:hover {
+  color: #555;
+}
+
+/* Rectangle Section (Hero) */
+.rectangle {
+  position: relative;
+  width: 100vw; /* Lebar penuh tanpa scroll */
+  height: 100vh;
+  overflow: hidden;
+}
+
+.rectangle-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Teks di dalam gambar */
+.rectangle-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 80%;
+  max-width: 100vw; /* Mencegah melebihi layar */
+}
+
+.rectangle-content h1 {
+  font-size: 80px;
+  font-family: "Bebas Neue", serif;
+}
+
+.rectangle-content hr {
+  margin: 10px auto;
+  width: 50%;
+  border: 1px solid white;
+}
+
+.rectangle-content p {
+  font-size: 22px;
+  font-family: "Shadows Into Light", serif;
+}
+
+/* Tombol Scroll */
+.scroll-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.scroll-btn:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+/* Content Section */
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 5%;
+  background: #ffffff;
+  max-width: 100vw; /* Tidak melebihi layar */
+  overflow: hidden;
+}
+
+.content-img {
+  width: 50%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.content-text {
+  width: 50%;
+  padding-left: 40px;
+}
+
+.content-text h1 {
+  font-size: 36px;
+  font-family: "Bebas Neue", serif;
+}
+
+.content-text p {
+  font-size: 18px;
+  color: #656565;
+  line-height: 1.5;
+  font-family: "Jost", serif;
+  text-align: justify;
+}
+.brand-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 50px;
+}
+
+.brand-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.brand-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", serif;
+}
+
+.brand-text p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.5;
+  font-family: "Jost", serif;
+
+  color: #656565;
+}
+.footer {
+  text-align: center;
+  padding: 50px;
+  background-color: #000;
+  color: white;
+}
+
+.footer h1 {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer hr {
+  width: 50%;
+  margin: 10px auto;
+  border: 1px solid white;
+}
